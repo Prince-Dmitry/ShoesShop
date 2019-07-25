@@ -8,6 +8,9 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+body {
+  background: #fbfbfb;
+}
 ul {
   list-style-type: none;
 }
@@ -252,6 +255,9 @@ a {
   width: 670px;
   height: 570px;
   background: #eeeded;
+  border: 8px white solid;
+  border-radius: 2px;
+  box-shadow: 0px 5px 19px 1px rgba(223, 220, 220, 0.75);
 }
 .about-us .about-us__information {
   position: relative;
@@ -294,6 +300,9 @@ a {
   height: 47px;
   background: #82f4d3;
   z-index: 25;
+  font-family: 'Poppins';
+  font-size: 15px;
+  line-height: 30px;
 }
 .about-us .about-us__information .information__button-border {
   content: '';
@@ -307,5 +316,199 @@ a {
   background: transparent;
   border: 1px #c6faeb solid;
   z-index: 3;
+}
+.popular-item {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: ;
+  width: 100%;
+  padding: 0 216px;
+  margin-bottom: 285px;
+  box-sizing: border-box;
+}
+.popular-item .popular-item__title {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 72px;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 25px;
+  font-family: 'Cormorant Garamond';
+}
+.popular-item .popular-item__catalog {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.popular-item .popular-item__catalog .catalog__catalog-item .catalog-item__image {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 250px;
+  height: 305px;
+  margin-bottom: 66px;
+  background: #eeeded;
+  z-index: 25;
+}
+.popular-item .popular-item__catalog .catalog__catalog-item .catalog-item__image .catalog-item__hover {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  left: 11px;
+  width: 228px;
+  height: 285px;
+  box-sizing: border-box;
+  background-color: #82f4d3;
+  opacity: 0.871;
+  z-index: 1;
+}
+.popular-item .popular-item__catalog .catalog__catalog-item .catalog-item__image .catalog-item__hover .catalog-item__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 49px;
+  border: 2px #fff solid;
+  border-radius: 1px;
+  font-family: 'Poppins';
+  font-size: 15px;
+  line-height: 15px;
+  color: #fff;
+}
+.popular-item .popular-item__catalog .catalog__catalog-item:hover .catalog-item__hover {
+  display: flex;
+}
+.popular-item .popular-item__catalog .catalog-item__mark {
+  display: flex;
+  flex-wrap: wrap;
+}
+.popular-item .popular-item__catalog .catalog-item__mark .mark__title,
+.popular-item .popular-item__catalog .catalog-item__mark .mark__type {
+  padding-right: 23px;
+  margin: 0;
+  font-size: 15px;
+  line-height: 15px;
+  font-family: 'Poppins';
+  color: #000;
+}
+.popular-item .popular-item__catalog .catalog-item__mark .mark__type {
+  color: #bbbbbb;
+}
+.popular-item .popular-item__catalog .catalog-item__mark .mark__price {
+  width: 100%;
+  margin: 0;
+  margin-top: 25px;
+  font-family: 'Roboto';
+  font-size: 25px;
+  line-height: 30px;
+  color: #999999;
+}
+.bg_copy {
+  background-color: #82f4d3;
+  opacity: 0.871;
+  position: absolute;
+  left: 533px;
+  top: 1915px;
+  width: 230px;
+  height: 286px;
+  z-index: 166;
+}
+.pre-collection {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 216px 303px 216px;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+.pre-collection .pre-collection__card {
+  position: relative;
+  max-width: 555px;
+  margin-top: 175px;
+}
+.pre-collection .pre-collection__card .card__title {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 50px;
+  font-size: 45px;
+  font-family: 'Cormorant Garamond';
+}
+.pre-collection .pre-collection__card .card__description {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 64px;
+  font-size: 15px;
+  line-height: 30px;
+  font-family: 'Poppins';
+  font-weight: 300;
+}
+.pre-collection .pre-collection__card .card__button {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 145px;
+  height: 47px;
+  background: #82f4d3;
+  z-index: 25;
+  font-family: 'Poppins';
+  font-size: 15px;
+  line-height: 30px;
+}
+.pre-collection .pre-collection__card .card__button--border {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: -11px;
+  width: 143px;
+  height: 45px;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: 1px #c6faeb solid;
+  z-index: 3;
+}
+.pre-collection .pre-collection__image {
+  display: block;
+  position: relative;
+  z-index: 5;
+}
+.pre-collection .pre-collection__image img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 4px #fff solid;
+  z-index: 5;
+}
+.pre-collection .pre-collection__image .image__decoration {
+  position: absolute;
+  bottom: -104px;
+  right: -104px;
+  width: 293px;
+  height: 388px;
+  background-image: -webkit-linear-gradient(24deg, #65e0bc 0%, #c9f9eb 100%);
+  background-image: -o-linear-gradient(24deg, #65e0bc 0%, #c9f9eb 100%);
+  background-image: linear-gradient(114deg, #65e0bc 0%, #c9f9eb 100%);
+  opacity: 0.722;
+  z-index: 4;
 }
 /*# sourceMappingURL=styles.css.map */
