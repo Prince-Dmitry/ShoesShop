@@ -47,6 +47,14 @@
 					font-size: 15px;
 					line-height: 25px;
 					color: #888888;
+
+					&:hover {
+						color: #61e9c2;
+					}
+
+					&:active {
+						color: #000000;
+					}
 				}
 			}
 	}
@@ -95,6 +103,16 @@
 				font-size: 15px;
 				line-height: 30px;
 				border: none;
+
+				&:hover {
+					background: #000000;
+					color: #82f4d3;
+				}
+
+				&:active {
+					background: #000000;
+					color: #ffffff;
+				}
 			}
 		}
 
@@ -105,6 +123,14 @@
 
 			.social__link {
 				margin-right: 40px;
+
+				&:hover .link__icon svg path {
+					fill: #82f4d3;
+				}
+
+				&:active .link__icon svg path {
+					fill: #000000;
+				} 
 			}
 		}
 
@@ -117,6 +143,94 @@
 			line-height: 30px;
 			font-weight: 300;
 			color: #a6a5a5;
+
+			&:hover {
+				color: #82f4d3;
+			}
+
+			&:active {
+				color: #000000;
+			}
+		}
+	}
+}
+
+@media @tablet-widths {
+	.footer {
+		flex-wrap: wrap;
+		padding: 55px 0;
+		margin: 0px 130px;
+	}
+}
+
+@media @mobile-widths {
+	.footer {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		margin: 0px 30px;
+		margin-bottom: 64px;
+	
+	
+		.logo__title {
+			display: block;
+			position: relative;
+			padding-left: 50px;
+			color: #61e9c2;
+			font-size: 25px;
+			font-family: 'Ubuntu';
+			font-weight: 500;
+		}
+	
+			.links__links-list,
+			.links__links-list-2 {
+				padding: 0;
+				margin: 0;
+				color: #888888;
+	
+				.links-list__link {
+					text-align: center;
+	
+				.link__text {
+					display: block;
+					font-family: 'Poppins';
+					font-size: 15px;
+					line-height: 25px;
+					color: #888888;
+				}
+			}
+		}
+	
+		.form-and-social {
+			width: 352px;
+			margin-top: 30px;
+
+			
+		.form-and-social__title {
+			margin: 0 auto;
+			text-align: center;
+		}
+	
+		.form-and-social__form {
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			margin-bottom: 20px;
+			height: 150px;
+	
+				input[type='text'] {
+					width: 270px;
+					height: 50px;
+					padding-left: 20px;
+					margin: 0 auto;
+				}
+	
+				input[type='submit'] {
+					width: 145px;
+					height: 47px;
+					margin: 0 auto;
+				}
+			}
 		}
 	}
 }

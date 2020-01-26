@@ -43,6 +43,19 @@
 			font-family: 'Poppins';
 			font-size: 15px;
 			line-height: 30px;
+
+			&:hover {
+				background: black;
+				color: #82f4d3;
+
+				&+.card__button--border {
+					border: 2px black solid;
+				}
+			}
+
+			&:active {
+				color: white;
+			}
 		}
 
 		.card__button--border {
@@ -87,3 +100,77 @@
 		}
 	}
 }
+
+@media @tablet-widths {
+	.pre-collection {
+		padding: 0 156px 126px 156px;
+	
+		.pre-collection__card {
+			max-width: 350px;
+			margin-top: 120px;
+	
+			.card__title {
+				font-size: 36px;
+				font-weight: 500;
+			}
+		}
+	
+		.pre-collection__image {
+	
+			img {
+				top: 160px;
+				width: 282px;
+				height: 305px;
+			}
+	
+			.image__decoration {
+				bottom: -55px;
+				right: -54px;
+				width: 176px;
+				height: 233px;
+			}
+		}
+	}
+}
+
+@media @mobile-widths {
+	.pre-collection {
+		padding: 0 30px;
+		margin-bottom: 440px;
+	
+		.pre-collection__card {
+			min-width: 300px;
+			margin: 0 auto;
+			margin-top: 0px;
+	
+			.card__title {
+				text-align: center;
+				font-size: 28px;
+				font-weight: 500;
+				margin-bottom: 30px;
+			}
+
+			.card__button {
+				bottom: -370px;
+			}
+		}
+	
+		.pre-collection__image {
+	
+			img {
+				top: 280px;
+				right: 60px;
+				width: 282px;
+				height: 305px;
+			}
+	
+			.image__decoration {
+				bottom: -320px;
+				right: 14px;
+				width: 176px;
+				height: 233px;
+			}
+		}
+	}
+}
+
