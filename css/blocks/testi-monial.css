@@ -1,0 +1,84 @@
+.testi-monial {
+  background: #f8f8f8;
+  padding: 0 105px;
+}
+.testi-monial .testi-monial__title {
+  font-size: 45px;
+  font-weight: 500;
+  font-family: 'Cormorant Garamond';
+  text-align: center;
+}
+.testi-monial .testi-monial__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.testi-monial .testi-monial__description .description__border-left {
+  position: relative;
+  width: 114px;
+  height: 1px;
+  background: #c6c6c6;
+}
+.testi-monial .testi-monial__description .description__border-left:before {
+  content: '';
+  position: absolute;
+  top: -13px;
+  left: -5px;
+  width: 36px;
+  height: 1px;
+  background: #c6c6c6;
+  transform: rotate(-45deg);
+}
+.testi-monial .testi-monial__description .description__border-right {
+  position: relative;
+  width: 114px;
+  height: 1px;
+  background: #c6c6c6;
+}
+.testi-monial .testi-monial__description .description__border-right:before {
+  content: '';
+  position: absolute;
+  top: -13px;
+  right: -5px;
+  width: 36px;
+  height: 1px;
+  background: #c6c6c6;
+  transform: rotate(45deg);
+}
+.testi-monial .testi-monial__description .description__text {
+  width: 55%;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 38px;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: #888888;
+  text-align: center;
+}
+.testi-monial .testi-monial__author {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 105px;
+}
+.testi-monial .testi-monial__author .author__name {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins';
+  font-size: 18px;
+  line-height: 25px;
+  color: #666666;
+  text-align: center;
+}
+.testi-monial .testi-monial__author .author__profession {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins';
+  font-size: 15px;
+  line-height: 25px;
+  color: #51cda9;
+  text-align: center;
+}
+/*# sourceMappingURL=testi-monial.css.map */
