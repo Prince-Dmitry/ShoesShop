@@ -35,7 +35,8 @@ let buttonBackClick = function (e){
     document.querySelector('.slider__number').textContent = '0' + counter;
     document.querySelector('.blog').querySelector('.card__title').textContent = CARD_TITLE[counter];
     document.querySelector('.blog').querySelector('.card__description').textContent = CARD_DESCRIPTION[counter];
-    image.setAttribute('src','image/blog-' + counter +'.jpg');
+    let element = document.getElementById('pictureImage');
+    element.src = 'image/blog-' + counter +'.jpg';
 }
 
 let buttonForwardClick = function (e){
@@ -47,5 +48,7 @@ let buttonForwardClick = function (e){
     document.querySelector('.slider__number').textContent = '0' + counter;
     document.querySelector('.blog').querySelector('.card__title').textContent = CARD_TITLE[counter];
     document.querySelector('.blog').querySelector('.card__description').textContent = CARD_DESCRIPTION[counter];
-    image.setAttribute('src','image/blog-' + counter +'.jpg');
+    let element = document.getElementById('pictureImage');
+    element.src = 'image/blog-' + counter +'.jpg';
+    //image.setAttribute('src','image/blog-' + counter +'.jpg');
 }
