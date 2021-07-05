@@ -5,21 +5,21 @@ let CARD_TITLE = [
     'some',
     'Colourful Offer ;',
     'Running Offer ;',
-    'Сообщение 3',
-    'Сообщение 4',
-    'Сообщение 5',
-    'Сообщение 6'
+    'Absolute clarity of shapes - 1',
+    'Absolute clarity of shapes - 2',
+    'Absolute clarity of shapes - 3',
+    'Absolute clarity of shapes - 4'
 ];
 
 let CARD_DESCRIPTION = [
     "some",
     'Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive ',
     'Pellentesque at semper nisi. Cras venenatis ante vel sollicitudin dignissim. Nulla at dictum eros, nec tempor augue. Sed elit ligula, volutpat quis ex sit amet, sodales cursus neque. Curabitur fermentum nunc semper lectus hendrerit dictum. Quisque libero tellus, tincidunt nec sem vel, iaculis dictum urna. Vivamus',
-    'Белых сугробов могила, Мягкая, как молоко, Водка нас научила, Что умирать легко. Лампы, словно планеты,Над головой плывут. Травматология это? Или последний суд?',
-    'Крылья ли нас укрыли? Вьюгой ли занесло? Зимы нас научили, Что замерзать тепло. Движемся горизонтально Без помощи рук и ног, В безграничную спальню, Где, может быть, встретит Бог.',
-    'Схлопнется без усилий Все это шапито. Бабы нас научили, Что по нам не заплачет никто. Жмутся по стенам тени. Тот или этот свет? Надо бы встать на колени, Только коленей нет.',
-    'Тел отдельные части Трудно в пазл совместить. Нас научило начальство Не верить и не просить. От соли в глазах слезится, Бездействует телефон, Сквозь волны мутного Стикса Везет угрюмый Харон.',
-    'Держа за щекой монету, Вцепившись рукой в корму, Ученье приводит к свету, А неученье во тьму. Не достанет там безопасность, Не насыплют бесплатный корм, Но наступит полная ясность — Абсолютная четкость форм.'
+    'Grave of white snowdrifts, Soft as milk, Vodka taught us, That its easy to die.Lamps, like planets, Float overhead.Traumatology is it ? Or the last judgment?',
+    'Have the wings covered us? Has it drifted like a blizzard? Winters have taught us, That it is warm to freeze. We move horizontally Without the help of arms and legs, Into an endless bedroom, Where, perhaps, God will meet.',
+    'Will collapse without effort All this big top. The women taught us that no one will cry for us. Shadows huddle on the walls. This or this light? We ought to kneel, Only there are no knees.',
+    'The bodies are separate parts It is difficult to combine in a puzzle. Our bosses taught us not to believe and not to ask. The salt in my eyes is watering, The phone is inactive, Through the waves of the muddy Styx Carries the gloomy Charon.',
+    'Holding a coin by the cheek, Grasping the stern with a hand, Learning leads to light, And ignorance to darkness. Security will not be there, Free feed will not be poured, But complete clarity will come - Absolute clarity of forms.'
 ];
 
 document.querySelector('.slider__number').textContent = '0' + counter;
