@@ -13,8 +13,19 @@ Presentation - https://dmitryzhuravskiy.github.io/ShoesShop/ <br />
 
 Site advertising footwear. Responsive, with a feedback form, with a slider below, made in native JS. All buttons blink as expected. A neat business card site.
 <br /><br />
-
 <img src="https://github.com/DmitryZhuravskiy/ShoesShop/raw/english/screenshots/shoes-shop--1.jpg "/>
+<br /><br />
+<img src="https://github.com/DmitryZhuravskiy/ShoesShop/raw/english/screenshots/shoes-shop--2.jpg "/>
+<br /><br />
+<img src="https://github.com/DmitryZhuravskiy/ShoesShop/raw/english/screenshots/shoes-shop--3.jpg "/>
+<br /><br />
+<img src="https://github.com/DmitryZhuravskiy/ShoesShop/raw/english/screenshots/shoes-shop--4.jpg "/>
+<br /><br />
+<img src="https://github.com/DmitryZhuravskiy/ShoesShop/raw/english/screenshots/shoes-shop--5.jpg "/>
+<br /><br />
+<img src="https://github.com/DmitryZhuravskiy/ShoesShop/raw/english/screenshots/shoes-shop--6.jpg "/>
+<br /><br />
+<img src="https://github.com/DmitryZhuravskiy/ShoesShop/raw/english/screenshots/shoes-shop--7.jpg "/>
 <br /><br />
 
 
